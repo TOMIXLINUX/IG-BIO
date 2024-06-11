@@ -72,14 +72,20 @@ a {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     .navbar {
         flex-direction: column;
+        
     }
 
     .navbar a {
         margin: 5px 0;
+        font-size: 42px;
     }
+ 
+    h1 {font-size: 50px;}
+    p {font-size: 44px;}
 
+    
 
 }
