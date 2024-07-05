@@ -72,3 +72,13 @@ a {
     background-color: white;
     color: black;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a, .footer a {
+        margin: 5px 0;
+    }
+}
