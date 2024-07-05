@@ -3,10 +3,14 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-    -webkit-user-select: none;
+    padding
+        -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
 }
+
+br {font-size: 200px;}
 
 h1 {
     font-size: 36px;
@@ -36,6 +40,8 @@ img {
     user-select: none;
 }
 
+.fotky {padding:25px; width: 800px; height: auto;}
+
 a {
     color: white;
     text-decoration: none;
@@ -45,7 +51,7 @@ a {
 }
 
 
-.navbar {
+.navbar{
     display: flex;
     justify-content: center;
     background-color: black;
@@ -54,7 +60,7 @@ a {
     top: 0;
 }
 
-.navbar a, .footer a {
+.navbar a, footer a{
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -62,29 +68,7 @@ a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar a:hover, .footer a:hover {
+.navbar a:hover{
     background-color: white;
     color: black;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
-
-@media only screen and (max-width: 1080px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .navbar a, .footer a {
-        margin: 5px 0;
-    }
 }
